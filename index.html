@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Nolberto's Personal Webpage </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #0000FF
+;
+  color: white;
+}
+
+.menu {
+  width: 50%;
+  float: left;
+  padding: 0px;
+  border: 0px solid red;
+}
+
+.main {
+  width: 10 %;
+  float: left;
+  padding: 0px;
+  border: 0px solid red;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 0px 0;
+  text-align: left;
+  background-color: none;
+  margin-top: 0px;
+  display: none;
+font-family: "Arial Black", Gadget, sans-serif; 
+}
+#myDIV2 {
+  width: 100%;
+  padding: 0px 0;
+  text-align: left;
+  background-color: none;
+  margin-top: 0px;
+  display: none;
+font-family: "Arial Black", Gadget, sans-serif; }
+#myDIV3 {
+  width: 100%;
+  padding: 0px 0;
+  text-align: left;
+  background-color: none;
+  margin-top: 0px;
+  display: none;
+font-family: "Arial Black", Gadget, sans-serif; }
+#myDIV4 {
+  width: 100%;
+  padding: 0px 0;
+  text-align: left;
+  background-color: none;
+  margin-top: 0px;
+  display: none;
+font-family: "Arial Black", Gadget, sans-serif; }
+#myDIV5 {
+  width: 100%;
+  padding: 0px 0;
+  text-align: left;
+  background-color: none;
+  margin-top: 0px;
+  display: none;
+font-family: "Arial Black", Gadget, sans-serif; }
+.button {
+  background-color: #00BFFF
+; /* Green */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+font-family: "Arial Black", Gadget, sans-serif; }
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+table, th, td {
+  border: 1px solid black;
+font-family: "Arial Black", Gadget, sans-serif; }
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<table>
+<tr>
+<th colspan="2" style="background-color:#0000FF ">
+ <h1> <font color="white"> Nolberto's Personal Webpage </font>  </h1>
+  <p><iframe src="http://free.timeanddate.com/clock/i7bht0vc/n421/fn2/fs26/fcfff/tc22d/ftb/bls0/brs0/bts4/btc00b/tt0/tm2/th2/ta1/tb2" frameborder="0" width="583" height="44"></iframe> </p>
+</th>
+</tr> 
+
+  
+<tr>
+    <td> <h2> Schedule </h2> <p> <iframe src="https://calendar.google.com/calendar/embed?src=njaramillo1299%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="750" height="500" frameborder="0" scrolling="no"></iframe> </p>
+</td>
+    
+
+<td> <a class="weatherwidget-io" href="https://forecast7.com/en/43d14n77d19/marion/?unit=us" data-label_1="MARION" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-basecolor="#ffffff" data-textcolor="#020202" data-highcolor="#fe0000" data-lowcolor="#0064f3" >MARION WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+</td> 
+
+
+  </tr>
+  <tr>
+    <td> 
+<button class="button button3" onclick="myFunction()"> STUDY PLANS</button>
+<div id="myDIV">
+<p><a target="_blank" href="https://docs.google.com/spreadsheets/d/1VNN_gj_rUReNFd7ag9ZaXq0PlKO21vnr_sRVSwxSV74/edit?pli=1#gid=0">Study Plans</a></p>
+<iframe src="https://docs.google.com/spreadsheets/d/1VNN_gj_rUReNFd7ag9ZaXq0PlKO21vnr_sRVSwxSV74/edit?pli=1#gid=0" height="500" width="700" style="border:none" ></iframe>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<button class="button button3" onclick="myFunction1()"> MyGeneseo</button>
+<div id="myDIV2">
+<p><a target="_blank" href="https://my.geneseo.edu">MyGeneseo</a></p>
+<iframe src="https://my.geneseo.edu" height="500" width="700" style="border:none" ></iframe>
+</div>
+<script>
+function myFunction1() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<button class="button button3" onclick="myFunction2()"> MyNYIT </button>
+<div id="myDIV3">
+<p><a target="_blank" href="https://my.nyit.edu/campusm/home#menu"> MyNYIT </a></p>
+<iframe src="https://my.nyit.edu/campusm/home#menu" height="500" width="700" style="border:none" ></iframe>
+</div>
+<script>
+function myFunction2() {
+  var x = document.getElementById("myDIV3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<button class="button button3" onclick="myFunction4()"> Finances </button>
+<div id="myDIV4">
+<p><a target="_blank" href="https://docs.google.com/spreadsheets/d/11gdE2ZJH9H3GTp5xaGsL95hnzGUH0RLx-PAdUUKxTUE/edit?pli=1#gid=0"> Finances </a></p>
+<iframe src="https://docs.google.com/spreadsheets/d/11gdE2ZJH9H3GTp5xaGsL95hnzGUH0RLx-PAdUUKxTUE/edit?pli=1#gid=0" height="500" width="700" style="border:none" ></iframe>
+</div>
+<script>
+function myFunction4() {
+  var x = document.getElementById("myDIV4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+</td>
+
+
+    <td> 
+<a href="https://drive.google.com/drive/u/0/my-drive" target="_blank">
+  <img src="drive.png" alt="HTML tutorial" style="width:200;height:100px;border:0">
+</a>
+
+
+</td>
+
+
+  </tr>
+  <tr>
+    <td></td>
+    <td> <h2> Important Links </h2>  <p><a target="_blank" href="https://studentaid.gov/dashboard/"> Federal Student Aid Dashboard </a></p>
+<p><a target="_blank" href="https://quod.lib.umich.edu/r/rsv/browse.html"> Holy Bible </a></p>  </td>
+  </tr>
+
+</table>
+
+
+<div class="menu">
+</div>
+
+
+<div class="main">
+</div>
+
+
+
+<div class="main">
+</div>
+
+<div class="main">
+</div>
+
+
+<div class="main">
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
