@@ -11,33 +11,10 @@
 	</script>
 	
 	<style>
-		body{
-		padding:10% 3% 10% 3%;
-		text-align:center;
-		}
-		img{
-			height:140px;
-				width:140px;
-		}
-		h1{
-		color: #32a852;
-		}
-		.mode {
-			float:right;
-		}
-		.change {
-			cursor: pointer;
-			border: 1px solid #555;
-			border-radius: 40%;
-			width: 20px;
-			text-align: center;
-			padding: 5px;
-			margin-left: 8px;
-		}
-		.dark{
-			background-color: #222;
-			color: #e6e6e6;
-		}
+body.dark-mode .targetElement {
+    background: #000000;
+}
+		
 	</style>
 </head>
 
@@ -180,24 +157,7 @@
 
 </table>
 
-	
-	
-	<div class="mode">
-		Dark mode:			
-		<span class="change">OFF</span>
-	</div>
-	
-	<script>
-		$( ".change" ).on("click", function() {
-			if( $( "body" ).hasClass( "dark" )) {
-				$( "body" ).removeClass( "dark" );
-				$( ".change" ).text( "OFF" );
-			} else {
-				$( "body" ).addClass( "dark" );
-				$( ".change" ).text( "ON" );
-			}
-		});
-	</script>
+
 </body>
 
 </html>
