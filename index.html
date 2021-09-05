@@ -11,14 +11,32 @@
 	</script>
 	
 	<style>
-body.dark-mode .targetElement {
-    background: #000000;
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+		
+		
+		
+		
 		
 	</style>
 </head>
 
 <body>
+	
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+	
 	
 <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
     <span aria-hidden="true" class="dark-toggle">
